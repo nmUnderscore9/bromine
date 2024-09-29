@@ -1,7 +1,12 @@
-f = open("view_count.txt","r")
-contents = f.read()
-view_count = int(contents)
+FILE_PATH = "view_count.txt"
+
+
+
+OPEN_VIEW_COUNT_AS_READ_MODE = open(FILE_PATH,"r")
+TEXT_CONTENT_FROM_OPEN_VIEW_COUNT_AS_READ_MODE = OPEN_VIEW_COUNT_AS_READ_MODE.read()
+view_count = int(TEXT_CONTENT_FROM_OPEN_VIEW_COUNT_AS_READ_MODE)
 view_count+= 1
 
-f = open("view_count.txt","w")
+OPEN_VIEW_COUNT_AS_WRITE_MODE = open(FILE_PATH,"w")
 f.write(str(view_count))
+
