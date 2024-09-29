@@ -1,0 +1,21 @@
+.background{
+	background-color:black;
+}
+.std-btn{
+	background-color:black;
+	color:white;
+	font-size:25px;
+	padding:14px;
+	display:inline;
+	width:100px;
+	cursor:pointer;
+	text-decoration:none;
+	
+}
+.FAQ-Title{
+	color:white;
+	text-align:center;
+}
+h1{
+	color:white;
+}
