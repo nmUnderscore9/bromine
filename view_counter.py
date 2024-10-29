@@ -8,5 +8,5 @@ view_count = int(TEXT_CONTENT_FROM_OPEN_VIEW_COUNT_AS_READ_MODE)
 view_count+= 1
 
 OPEN_VIEW_COUNT_AS_WRITE_MODE = open(FILE_PATH,"w")
-f.write(str(view_count))
+OPEN_VIEW_COUNT_AS_WRITE_MODE.write(str(view_count))
 
