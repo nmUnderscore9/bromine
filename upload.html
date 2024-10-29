@@ -5,7 +5,10 @@
 <body class="background">
 <br></br>
 <form action="upload-handler.php" method="post" enctype="multipart/form-data">
-<input class="upload" name="upload" id="upload" type="file" style="color:white;">
+	<label for="upload"   style="cursor:pointer;background-color:red;width:350px;height:50px;display:block;border:none;margin-left:auto;margin-right:auto;">  <img style="display:block;margin-left:auto;margin-right:auto;" width="45px;" src="Media/upload.png">
+	</label>
+	<input class="upload" name="upload" id="upload" type="file" style="display:none;"/>
+
 <br></br>
-<button type="submit" value="Submit">Submit</button>
+<button class="submit" type="submit" value="Submit">Submit</button>
 </form>
