@@ -1,3 +1,14 @@
+<div align="center">
+  <h1>Bromine</h1>
+</div>
+<link rel = "stylesheet" href="styles.css">
+<p align="center">
+<img src="favicon.ico" style="width:100px;">
+</p>
+<p>Bromine is a lightweight and customisable file sharing service that does not claim to be anonymous but claims to be decently secure compared to competitors which require the use of user accounts where as by default Bromine instances do not require user accounts thus making it significantly harder for prying eyes to request subpeonas although it may still be possible to recover IP or session ID which could be used be an attacker to learn more about you and whom you are and if anonymity is your top priority then you should probably use encrypted files and use tor on a Bromine instance you trust!</p>
+<br></br>
+<br></br>
+
 <h1>Installing Bromine on a server</h1>
 <p>Firstly ensure you have git installed and run the command below</p>
 <code>git clone https://github.com/nmUnderscore9/bromine.git</code>
